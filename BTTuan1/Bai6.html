@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jackson-Electronics</title>
+</head>
+<body>
+<h2 style="text-align:center;">Registration Form</h2>
+  <p style="text-align:center;">Register your Jackson Electronics product here</p>
+
+  
+  <form action="#" method="post">
+    <table border="0" cellspacing="6" cellpadding="2" align="center">
+      <tr>
+        <td>First Name:</td>
+        <td><input type="text" name="first_name" size="25" required></td>
+        <td>Last Name:</td>
+        <td><input type="text" name="last_name" size="25" required></td>
+      </tr>
+      <tr>
+        <td>Address #1:</td>
+        <td colspan="3"><input type="text" name="addr1" size="60"></td>
+      </tr>
+      <tr>
+        <td>Address #2:</td>
+        <td colspan="3"><input type="text" name="addr2" size="60"></td>
+      </tr>
+      <tr>
+        <td>City:</td>
+        <td><input type="text" name="city" size="25"></td>
+        <td>State:</td>
+        <td><input type="text" name="state" size="8"> Zip:
+            <input type="text" name="zip" size="8"></td>
+      </tr>
+      <tr>
+        <td>Country:</td>
+        <td>
+          <select name="country">
+            <option>United States</option>
+            <option>Canada</option>
+            <option>United Kingdom</option>
+            <option>Other</option>
+          </select>
+        </td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr><td colspan="4"><hr></td></tr>
+
+    <tr>
+        <td>Product:</td>
+        <td>
+          <select name="product">
+            <option>ScanMaster</option>
+            <option>PhotoPlus</option>
+            <option>CamPro</option>
+            <option>Other</option>
+          </select>
+        </td>
+        <td>Date Purchased:</td>
+        <td><input type="date" name="purchased"></td>
+      </tr>
+      <tr>
+        <td>Serial #:</td>
+        <td><input type="text" name="serial" size="20"></td>
+        <td>Used for:</td>
+        <td>
+          <label><input type="radio" name="usedfor" value="home"> Home</label>
+          <label><input type="radio" name="usedfor" value="business"> Business</label>
+          <label><input type="radio" name="usedfor" value="gov"> Government</label><br>
+          <label><input type="radio" name="usedfor" value="edu"> Educational Institution</label>
+          <label><input type="radio" name="usedfor" value="other"> Other</label>
+        </td>
+      </tr>
+      <tr>
+        <td>System (check all that apply):</td>
+        <td colspan="3">
+          <label><input type="checkbox" name="sys_win"> Windows</label>
+          <label><input type="checkbox" name="sys_mac"> Macintosh</label>
+          <label><input type="checkbox" name="sys_unix"> UNIX</label>
+          <label><input type="checkbox" name="sys_other"> Other</label>
+        </td>
+      </tr>
+
+      <tr><td colspan="4"><hr></td></tr>
+
+      <tr>
+        <td>Comments?</td>
+        <td colspan="3">
+          <textarea name="comments" rows="6" cols="70"></textarea>
+        </td>
+        </tr>
+      <tr>
+        <td></td>
+        <td colspan="3">
+          <button type="submit">Click to register</button>
+          <button type="reset">Click to cancel</button>
+        </td>
+      </tr>
+    </table>
+  </form>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Example Cafe</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Your message:</legend>
+            <p>
+                <strong>To</strong><br>
+                Example Cafe
+            </p>
+            
+            <label for="email">Your email</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" rows="5" cols="40" required></textarea>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Attach File</legend>
+            <input type="file" id="file" name="file">
+            <label for="file">Choose File</label> | No file chosen
+        </fieldset>
+        
+        <fieldset>
+            <legend>How you found us:</legend>
+            <label for="hear">How did you hear of us</label>
+            <select id="hear" name="hear">
+                <option value="google">Google</option>
+                <option value="friend">Friend</option>
+                <option value="ad">Advertisement</option>
+                <option value="other">Other</option>
+            </select><br><br>
+            
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Newsletter</label><br>
+            
+            <input type="checkbox" id="updates" name="updates" checked>
+            <label for="updates">Ensure this box is checked if you would like to receive email updates</label>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Send message</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="phone">Telephone Number:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+            
+            <label for="email2">Email:</label>
+            <input type="email" id="email2" name="email2" required><br><br>
+            
+            <label for="color">Favorite Color:</label>
+            <input type="text" id="color" name="color"><br><br>
+            
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" value="2015-07-16"><br><br>
+            
+            <input type="checkbox" id="terms" name="terms" checked required>
+            <label for="terms">I agree to the terms and conditions</label>
+        </fieldset>
+        
+        <br>
+        <button type="submit">Send Message</button>
+    </form>
+</body>
+</html>
+
+  <hr><br>
