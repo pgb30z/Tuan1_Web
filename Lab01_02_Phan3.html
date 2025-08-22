@@ -104,5 +104,31 @@
                     <h2></h2>
                     <button type="submit">Gửi phản hồi</button>
                 </form>
+                <h2><i class="fas fa-credit-card"></i> Thanh toán đơn hàng</h2>
+                <form id="paymentForm">
+                    <h2></h2>
+                        <label for="fullname">Họ và tên</label>
+                        <input type="text" id="fullname" name="fullname" required placeholder="Nhập họ tên đầy đủ">
+                        <h2></h2>
+
+                        <label for="phone">Số điện thoại</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="Nhập số điện thoại">
+                        <h2></h2>
+
+                        <label for="address">Địa chỉ</label>
+                        <textarea id="address" name="address" rows="3" required placeholder="Nhập địa chỉ giao hàng"></textarea>
+                        <h2></h2>
+
+                        <label for="frequency">Chọn phương thức thanh toán</label>
+                        <select id="frequency" name="frequency">
+                            <option value="">-- Chọn phương thức --</option>
+                            <option value="daily">Tiền mặt</option>
+                            <option value="weekly">Thẻ ngân hàng</option>
+                            <option value="monthly">Paypal</option>
+                        </select>
+                        <h2></h2>
+                    
+                    <button type="submit">Hoàn tất thanh toán</button>
+                </form>
 </body>
 </html>
