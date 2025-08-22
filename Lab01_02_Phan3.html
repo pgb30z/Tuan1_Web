@@ -18,5 +18,42 @@
                             <input type="password" id="password" name="password" required placeholder="Nhập mật khẩu">
                     <button type="submit">Đăng nhập</button>
                 </form>
+                <h2><i class="fas fa-clipboard-list"></i> Khảo sát ý kiến</h2>
+                <form id="surveyForm">
+                        <label>Bạn biết đến chúng tôi qua đâu?</label>
+                                <input type="checkbox" id="source1" name="source" value="facebook">
+                                <label for="source1">Facebook</label>
+                                <input type="checkbox" id="source2" name="source" value="google">
+                                <label for="source2">Google</label>
+                                <input type="checkbox" id="source3" name="source" value="friend">
+                                <label for="source3">Bạn bè</label>
+                                <input type="checkbox" id="source4" name="source" value="other">
+                                <label for="source4">Khác</label>
+                    <h2></h2>
+                        <label for="satisfaction">Mức độ hài lòng của bạn?</label>
+                                <input type="radio" id="very-satisfied" name="satisfaction" value="very-satisfied">
+                                <label for="very-satisfied">Rất hài lòng</label>
+                                <input type="radio" id="satisfied" name="satisfaction" value="satisfied">
+                                <label for="satisfied">Hài lòng</label>
+                                <input type="radio" id="neutral" name="satisfaction" value="neutral">
+                                <label for="neutral">Bình thường</label>
+                                <input type="radio" id="unsatisfied" name="satisfaction" value="unsatisfied">
+                                <label for="unsatisfied">Không hài lòng</label>
+                    <h2></h2>
+                        <label for="improvement">Ý kiến đóng góp</label>
+                        <h2></h2>
+                        <textarea id="improvement" name="improvement" rows="4" placeholder="Đề xuất cải thiện..."></textarea>
+                        <h2></h2>
+                        <label for="frequency">Bạn sử dụng sản phẩm/dịch vụ thường xuyên không?</label>
+                        <select id="frequency" name="frequency">
+                            <option value="">-- Chọn tần suất --</option>
+                            <option value="daily">Hàng ngày</option>
+                            <option value="weekly">Hàng tuần</option>
+                            <option value="monthly">Hàng tháng</option>
+                            <option value="rarely">Hiếm khi</option>
+                        </select>
+                    <h2></h2>
+                    <button type="submit">Gửi khảo sát</button>
+                </form>
 </body>
 </html>
